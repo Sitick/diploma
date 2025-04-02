@@ -36,14 +36,10 @@ namespace VKR3 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
 			//
 		}
 
 	protected:
-		/// <summary>
-		/// Освободить все используемые ресурсы.
-		/// </summary>
 		~Hypothesis()
 		{
 			if (components)
@@ -87,16 +83,11 @@ namespace VKR3 {
 	protected:
 
 	private:
-		/// <summary>
-		/// Обязательная переменная конструктора.
-		/// </summary>
+
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
-		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
-		/// </summary>
+
 		void InitializeComponent(void)
 		{
 			this->textBox1 = (gcnew System::Windows::Forms::TextBox());
